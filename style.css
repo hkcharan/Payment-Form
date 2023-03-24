@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+
+    background-color: rgb(192, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+   border: 1px solid;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-color: black;
+   font-weight: 700;
+   border-radius: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.full {
+background-color: rgb(255, 255, 255);
+width: 500px;
+padding: 25px;
+margin: 25px auto 0;
+box-shadow: 0px 0px 20px rgb(0, 0, 0);
+border-radius: 15px;
+}
+
+
+
+h2{
+    background-color: rgb(81, 235, 255);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 10px;
+ 
+}
+
+.first{
+   padding: 15px;
+   border: 1px solid;
+   border-radius: 15px;
+
+}
+
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.j,.btn{
+    padding-top: 10px;
+}
+
+h1:hover{
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+}
+h2:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    display: block;
+    margin:30px 125px 10px;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+   font-size: 22px;
+
+    
+}
+
+.btn:hover{
+    background-color: blue;
+}
